@@ -46,10 +46,9 @@
 
     <script type="text/javascript" src="../img04.en25.com/i/livevalidation_standalone.compressed.js">
     </script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="ui/images/tukhs-favicon.ico" />
-
+    <link rel="shortcut icon" type="image/x-icon" href="-/favicon.png" />
     
 <meta name="VIcurrentDateTime" content="638935006768463691" />
 <meta name="VirtualFolder" content="/" />
@@ -71,9 +70,8 @@ tags.async = !0, tags.src = '' + id + '.js' + qPString, scripts.parentNode.inser
     
     <a href="#main" id="skipnav" aria-label="Skip Navigation">Skip Navigation</a>
     <div class="site-wrapper">
-      <header>
+<header>
         
-
 
 <!-- menu at top of page, to right of logo -->
 <div class="global-nav-container">
@@ -107,12 +105,12 @@ tags.async = !0, tags.src = '' + id + '.js' + qPString, scripts.parentNode.inser
     <nav>
         <ul class="inline">
                 <li>
-                    <a class="nav-link  highlight collapsed" href="#"
+                    <a class="has-sub-nav nav-link highlight  collapsed" href="about-us.html"
                        data-bs-toggle="collapse" data-bs-target="#locationSubNav" aria-controls="locationSubNav" aria-expanded="false">
 About Us                    </a>
                 </li>
                 <li>
-                    <a class="has-sub-nav nav-link   collapsed" href="#"
+                    <a class="has-sub-nav nav-link   collapsed" 
                        data-bs-toggle="collapse" data-bs-target="#specialtiesSubNav" aria-controls="specialtiesSubNav" aria-expanded="false">
 Our Services                   </a>
                 </li>
@@ -130,22 +128,22 @@ Contact Us                </a>
         </ul>
     </nav>
     <!-- main menu mega-dropdowns -->
-        <div class="sub-nav-container">
+    <div class="sub-nav-container">
         <div class="btn-container">
             <a href="find-a-doctor.html" class="btn" >Contact a Doctor</a>
         </div>
-                <a class="has-sub-nav nav-link collapsed" href="#" data-bs-toggle="collapse"
+                <a class="has-sub-nav nav-link collapsed"  data-bs-toggle="collapse"
                    data-bs-target="#locationSubNav" aria-controls="locationSubNav" aria-expanded="false" style="">
-                    About Us
+                    Location
                 </a>
                     <div class="sub-nav collapse" id="locationSubNav" data-bs-parent="#site-nav-container">
                         <button class="close" data-bs-toggle="collapse" aria-label="Back"
                                 data-bs-target="#locationSubNav" aria-controls="locationSubNav" aria-expanded="false"></button>
                         <div class="inner">
-                            <div class="editor-content">
-                                <h2>About Us</h2>
+                            <div class="editor-content" \>
+                                <h2>Location</h2>
                                 <p>Locate Us at No 13. Onyeagoro Street, Akwakuma, Orlu Road, Imo State.</p>
-                                <a href="locations-prescreen.html" class="btn">Detailed Direction</a>
+                                <a href="about-us.html" class="btn">Learn About Us</a>
                             </div>
                                 <div class="editor-content">
                                     <ul class="link-list">                                          </li>
@@ -165,18 +163,18 @@ Contact Us                </a>
                             </div>
                         </div>
                     </div>
-                <a class="has-sub-nav nav-link collapsed" href="#" data-bs-toggle="collapse"
+                <a class="has-sub-nav nav-link collapsed"  data-bs-toggle="collapse"
                    data-bs-target="#specialtiesSubNav" aria-controls="specialtiesSubNav" aria-expanded="false" style="">
-                   Our Service
+                    Our Services
                 </a>
                     <div class="sub-nav collapse" id="specialtiesSubNav" data-bs-parent="#site-nav-container">
                         <button class="close" data-bs-toggle="collapse" aria-label="Back"
                                 data-bs-target="#specialtiesSubNav" aria-controls="specialtiesSubNav" aria-expanded="false"></button>
                         <div class="inner">
                             <div class="editor-content">
-                                <h2>Our Service and Treatments</h2>
+                                <h2>Specialties, Conditions and Treatments</h2>
                                 <p>Search our care options by diagnosis, treatment type or medical specialty.</p>
-                                <a href="care.html" class="btn">Explore Specialties &amp; Care</a>
+                                <a href="care.html" class="btn">Explore Our Services</a>
                             </div>
                                 <div class="editor-content">
                                     <ul class="link-list">
@@ -210,9 +208,7 @@ Contact Us                </a>
                         </div>
                     </div>
                            
-        
-
-      </header>
+          </header>
 
       <main id="main">
         
@@ -228,10 +224,8 @@ Contact Us                </a>
 <div class="tier-section-header section-gray full-width">
     
 
-
-
-<section class="section-default">
-    
+    <section class="section-default">
+        
 <div class="container">
     <!-- Page Content -->
     <div class="page-content">
@@ -251,24 +245,13 @@ Contact Us                </a>
     </div>
     <div class="col-md-2 text-right align-content-center">
         <!-- Action Bar-->
-        <div class="action-bar">
-            <ul class="action-bar-list">
-                <li class="action-bar-list-item">
-                    <a href="#" class="ico-print" onclick="window.print();return false;">
-                        <span class="sr-only">Print</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+      
     </div>
 
 </div>
 
     </div>
 </div>
-
-</section>
-
 <section class="generic-section">
     
         <!-- Large Image Content-->
@@ -294,45 +277,406 @@ Contact Us                </a>
     <div class="container">
         <!-- Inner Container -->
         <div class="inner-container">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #4361ee;
+            --secondary: #3a0ca3;
+            --accent: #7209b7;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --success: #4cc9f0;
+        }
+
+       
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+       
+        }
+
+        .contact-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact-info h2 {
+            color: var(--primary);
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+            font-size: 1.8rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+
+        .info-item i {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+        }
+
+        .info-text h3 {
+            margin-bottom: 5px;
+            color: var(--dark);
+            font-size: 1.2rem;
+        }
+
+        .info-text p {
+            color: var(--gray);
+        }
+
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact-form h2 {
+            color: var(--primary);
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+            font-size: 1.8rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--primary);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+        }
+
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            border: none;
+            padding: 16px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-weight: 600;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 15px rgba(67, 97, 238, 0.4);
+        }
+
+        .map-section {
+            justify-content: center;
+            margin: 40px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .map-placeholder {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .map-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .map-content p {
+            font-size: 1.1rem;
+            max-width: 500px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            header h1 {
+                font-size: 2.4rem;
+            }
             
+            .contact-wrapper {
+                gap: 20px;
+            }
+        }
 
-<section class="section-default">
-    <div><p>Fill out the form below to be contacted by our health resource center. We'll get back to you within 2 business days or less. If you'd like to speak with someone today, please call us at <a href="tel:19135881227">913-588-1227</a>. Thank you!</p>
-<p class="disclaimer-copy">Note, calls from the health system may appear on your caller ID as 913-588-0000. Consult voicemail messages for details on returning calls or texts, or contact your provider&rsquo;s office directly.</p>
-</div>
-    <div></div>
-</section>
-<form action="" method="post"><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_FormSessionId" name="name" type="hidden" value="27faa199-be79-499e-8caf-e462b681cb1a" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_IsSessionExpired" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.IsSessionExpired" type="hidden" value="0" /><input name="__RequestVerificationToken" type="hidden" value="qHuQlY7gSmjzuy6GeikulfvjmEJy7nPGIw3TmT_1kG-iwj6u89j38cxsFBDkoTCELLm2rqZiMCYs-8cSssEzHmh48Tjx2147_Ce4LdIYrT7-dqHgajbKMpXp4gKm0vKMXynaYDKIFV-Tsf6dORU_BA2" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_FormItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.FormItemId" type="hidden" value="2f2050cb-0bed-4270-8cc1-541db47fcc87" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_PageItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.PageItemId" type="hidden" value="28a8b360-4f6d-4997-a04c-3ce62be6154c" />
-<div data-sc-field-key="BDD9CC92F68A4EB0883469366002FE2F" class="">
-    <input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_Index_01839bfb-70b6-4c62-bb0e-23bb492dec0e" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields.Index" type="hidden" value="01839bfb-70b6-4c62-bb0e-23bb492dec0e" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_01839bfb-70b6-4c62-bb0e-23bb492dec0e__ItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[01839bfb-70b6-4c62-bb0e-23bb492dec0e].ItemId" type="hidden" value="01839bfb-70b6-4c62-bb0e-23bb492dec0e" /><label for="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_01839bfb-70b6-4c62-bb0e-23bb492dec0e__Value" class="">First Name</label>
-<input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_01839bfb-70b6-4c62-bb0e-23bb492dec0e__Value" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[01839bfb-70b6-4c62-bb0e-23bb492dec0e].Value" class="" type="text" value="" maxlength="255" placeholder="" data-sc-tracking="True" data-sc-field-name="First Name" data-sc-field-key="C62481A3F0CD48708282DE5D51F0B86B" data-val-required="First Name is required." data-val="true"/>
-<span class="field-validation-valid" data-valmsg-for="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[01839bfb-70b6-4c62-bb0e-23bb492dec0e].Value" data-valmsg-replace="true"></span><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_Index_e996a256-ce8b-4136-8024-d946a4eaac2b" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields.Index" type="hidden" value="e996a256-ce8b-4136-8024-d946a4eaac2b" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_e996a256-ce8b-4136-8024-d946a4eaac2b__ItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[e996a256-ce8b-4136-8024-d946a4eaac2b].ItemId" type="hidden" value="e996a256-ce8b-4136-8024-d946a4eaac2b" /><label for="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_e996a256-ce8b-4136-8024-d946a4eaac2b__Value" class="">Last Name</label>
-<input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_e996a256-ce8b-4136-8024-d946a4eaac2b__Value" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[e996a256-ce8b-4136-8024-d946a4eaac2b].Value" class="" type="text" value="" maxlength="255" placeholder="" data-sc-tracking="True" data-sc-field-name="Last Name" data-sc-field-key="767FE6E08F8B424BA03848B3BA50D3B4" data-val-required="Last Name is required." data-val="true"/>
-<span class="field-validation-valid" data-valmsg-for="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[e996a256-ce8b-4136-8024-d946a4eaac2b].Value" data-valmsg-replace="true"></span><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_Index_5ee36ce1-d25c-4969-b509-06251537fa25" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields.Index" type="hidden" value="5ee36ce1-d25c-4969-b509-06251537fa25" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_5ee36ce1-d25c-4969-b509-06251537fa25__ItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[5ee36ce1-d25c-4969-b509-06251537fa25].ItemId" type="hidden" value="5ee36ce1-d25c-4969-b509-06251537fa25" /><label for="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_5ee36ce1-d25c-4969-b509-06251537fa25__Value" class="">Email</label>
-<input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_5ee36ce1-d25c-4969-b509-06251537fa25__Value" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[5ee36ce1-d25c-4969-b509-06251537fa25].Value" class="" type="email" value="" maxlength="255" placeholder="" data-sc-tracking="True" data-sc-field-name="Email" data-sc-field-key="03F6EC52BC8B431FBBDD746F9CDF605B" data-val-required="Email is required." data-val-regex="Email contains an invalid email address." data-val-regex-pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,17}$" data-val="true"/>
-<span class="field-validation-valid" data-valmsg-for="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[5ee36ce1-d25c-4969-b509-06251537fa25].Value" data-valmsg-replace="true"></span><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_Index_ff0c7d66-f0af-4472-9bd7-46c78e5a77e0" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields.Index" type="hidden" value="ff0c7d66-f0af-4472-9bd7-46c78e5a77e0" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_ff0c7d66-f0af-4472-9bd7-46c78e5a77e0__ItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[ff0c7d66-f0af-4472-9bd7-46c78e5a77e0].ItemId" type="hidden" value="ff0c7d66-f0af-4472-9bd7-46c78e5a77e0" /><label for="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_ff0c7d66-f0af-4472-9bd7-46c78e5a77e0__Value" class="">Phone</label>
-<input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_ff0c7d66-f0af-4472-9bd7-46c78e5a77e0__Value" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[ff0c7d66-f0af-4472-9bd7-46c78e5a77e0].Value" class="" type="tel" value="" maxlength="255" placeholder="" data-sc-tracking="True" data-sc-field-name="Phone" data-sc-field-key="7E6AD34C0A1349B1843FB3A27D4EC0F6" />
-<span class="field-validation-valid" data-valmsg-for="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[ff0c7d66-f0af-4472-9bd7-46c78e5a77e0].Value" data-valmsg-replace="true"></span><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_Index_45b44c72-d3e5-430f-bfe3-77a830fde23d" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields.Index" type="hidden" value="45b44c72-d3e5-430f-bfe3-77a830fde23d" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_45b44c72-d3e5-430f-bfe3-77a830fde23d__ItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[45b44c72-d3e5-430f-bfe3-77a830fde23d].ItemId" type="hidden" value="45b44c72-d3e5-430f-bfe3-77a830fde23d" /><label for="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_45b44c72-d3e5-430f-bfe3-77a830fde23d__Value" class="">About Us</label>
-<select id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_45b44c72-d3e5-430f-bfe3-77a830fde23d__Value" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[45b44c72-d3e5-430f-bfe3-77a830fde23d].Value" class="" data-sc-tracking="True" data-sc-field-name="About Us" data-sc-field-key="3AD97CAC1DA1477997458A4C17F16C12" >
-        <option label=" "></option>
-        <option value="Great Bend">Great Bend</option>
-        <option value="Kansas City/Overland Park">Kansas City/Overland Park</option>
-        <option value="Olathe/Paola">Olathe/Paola</option>
-</select>
-<span class="field-validation-valid" data-valmsg-for="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[45b44c72-d3e5-430f-bfe3-77a830fde23d].Value" data-valmsg-replace="true"></span><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_Index_2d102a7d-3b96-473d-83d6-1b9851ca78c7" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields.Index" type="hidden" value="2d102a7d-3b96-473d-83d6-1b9851ca78c7" /><input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_2d102a7d-3b96-473d-83d6-1b9851ca78c7__ItemId" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[2d102a7d-3b96-473d-83d6-1b9851ca78c7].ItemId" type="hidden" value="2d102a7d-3b96-473d-83d6-1b9851ca78c7" /><label for="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_2d102a7d-3b96-473d-83d6-1b9851ca78c7__Value" class="">Reason for contact</label>
-<textarea id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_Fields_2d102a7d-3b96-473d-83d6-1b9851ca78c7__Value" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[2d102a7d-3b96-473d-83d6-1b9851ca78c7].Value" class="" rows="4" maxlength="512" placeholder="" data-sc-tracking="True" data-sc-field-name="Reason for Contact" data-sc-field-key="D85FFAF3AF234FCD8302BDC6E9BE1D3E" ></textarea>
-<span class="field-validation-valid" data-valmsg-for="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.Fields[2d102a7d-3b96-473d-83d6-1b9851ca78c7].Value" data-valmsg-replace="true"></span>
+        @media (max-width: 768px) {
+           
+            .contact-info, .contact-form {
+                padding: 25px;
+            }
+            
+            .info-item i {
+                width: 45px;
+                height: 45px;
+                font-size: 1.1rem;
+            }
+            
+            .map-placeholder {
+                height: 300px;
+            }
+            
+            .map-content h3 {
+                font-size: 1.5rem;
+            }
+            
+            .map-content p {
+                font-size: 1rem;
+            }
+        }
 
-<input value="Submit" type="submit" class="" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.a8f7664e-ad4e-4809-8e17-d9c16db71f32" data-sc-field-key="9D17B191E6A94B74A81EFC05BB42BAD3" />
-<input name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.NavigationButtons" type="hidden" value="a8f7664e-ad4e-4809-8e17-d9c16db71f32" />
-<input id="fxb_1a116a28-9074-4ce2-80e7-974180e09fc4_a8f7664e-ad4e-4809-8e17-d9c16db71f32" name="fxb.1a116a28-9074-4ce2-80e7-974180e09fc4.a8f7664e-ad4e-4809-8e17-d9c16db71f32" type="hidden" value="1" />
-</div>
-        <input type="hidden" data-sc-fxb-condition value='{}'/>
-</form>
+        @media (max-width: 576px) {
+           
+            .contact-info, .contact-form {
+                padding: 20px;
+                border-radius: 10px;
+            }
+            
+            .contact-info h2, .contact-form h2 {
+                font-size: 1.5rem;
+            }
+            
+            .info-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .info-item i {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            
+            .map-placeholder {
+                height: 250px;
+            }
+            
+            .map-content h3 {
+                font-size: 1.3rem;
+            }
+            
+            .footer-section {
+                text-align: center;
+            }
+            
+            .social-icons {
+                justify-content: center;
+            }
+        }
 
+        @media (max-width: 400px) {
+          
+            
+            .contact-info, .contact-form {
+                padding: 15px;
+            }
+            
+            input, select, textarea {
+                padding: 12px;
+            }
+            
+            .map-placeholder {
+                height: 200px;
+            }
+        }
 
+        /* Animation for form submission */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+    </style>
+    
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="section-heading text-left">
+            <h2 class="title title-sep">Contact Information</h2>
         </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker"></i>
+                    <div class="info-text">
+                        <h3>Our Address</h3>
+                         <p>Locate Us at No 13. Onyeagoro Street, Akwakuma, Orlu Road, Imo State.</p>
+                      </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="info-text">
+                        <h3>Phone Number</h3>
+                        <p>Call Us 0702-609-8594</p>
+                        <p>Call Us 0812-528-2046</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info-text">
+                        <h3>Email Address</h3>
+                        <p>totalcarespecialisthospital@gmail.com</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="contact-form">
+               <div class="section-heading text-left">
+            <h2 class="title title-sep">Send Us a Message</h2>
+        </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name </label>
+                        <input type="text" id="firstName" name="firstName" required style="width: 100%;">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name </label>
+                        <input type="text" id="lastName" name="lastName" required style="width: 100%;">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address </label>
+                        <input type="email" id="email" name="email" required style="width: 100%;">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" style="width: 100%;">
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message </label>
+                        <textarea id="message" name="message" placeholder="Please write your message here..." required style="width: 100%;"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    
+                    <div class="success-message" id="successMessage">
+                        <i class="fas fa-check-circle"></i> Thank you for your message! We'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.2737917228055!2d7.016340574057912!3d5.526336533949186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042575a3d13af2d%3A0x8df1e0346416371f!2sOrlu%20Rd%20%26%20Onyeagoro%20St%2C%20Amakohia-Akwakuma%2C%20Owerri%20460116%2C%20Imo!5e0!3m2!1sen!2sng!4v1759239074505!5m2!1sen!2sng" width="1080" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+       
+    
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simple form validation
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            if (!firstName || !lastName || !email || !subject || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Show success message
+            const successMessage = document.getElementById('successMessage');
+            successMessage.style.display = 'block';
+            
+            // In a real application, you would send the form data to a server here
+            setTimeout(function() {
+                document.getElementById('contactForm').reset();
+                successMessage.style.display = 'none';
+            }, 5000);
+        });
+        
+        // Add some interactive effects
+        const inputs = document.querySelectorAll('input, textarea, select');
+        inputs.forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.style.transform = 'translateY(-2px)';
+            });
+            
+            input.addEventListener('blur', function() {
+                this.parentElement.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+
+       </div>
+    </div>
     </div>
 </div>
 
@@ -342,44 +686,16 @@ Contact Us                </a>
       
 
 <footer class="full-width" style="background-image: url('-/IMG-20250915-WA0014.jpg')">
-    <div class="upper-footer">
+    <div class="upper-footer"style="margin-left: 40px;">
         <div>
             <a class="logo-link" href="index.html" style="margin-bottom: 30px">
                 <img src="-/logo.jpg" alt="Total Care Specialist Hospital Maternity And Laboratory" />
             </a>
-                <a href="tel:07026098594" class="btn" >Call Us 0702-609-8594</a>
-                <a href="tel:08125282046" class="btn"> Call Us 0812-528-2046</a>
+                <a href="tel:07026098594" class="btn">Call Us 0702-609-8594</a>
+                <a href="tel:08125282046" class="btn">Call Us 0812 -528-2046</a>
             <ul class="social-menu inline">
-                    <li class="social-menu-item">
-                        <a href="https://www.facebook.com/kuhospital/" class="social-menu-link data-gtm-footerSocial"
-                           aria-label="Visit the Total Care Specialist Hospital Maternity And Laboratory on Facebook" target="_blank" rel="noopener noreferrer">
-                            <img src="-/media/images/icons/facebook.png" alt="Facebook" width="30" height="30">
-                        </a>
-                    </li>
-                    <li class="social-menu-item">
-                        <a href="https://twitter.com/kuhospital?lang=en" class="social-menu-link data-gtm-footerSocial"
-                           aria-label="Visit the Total Care Specialist Hospital Maternity And Laboratory on X" target="_blank" rel="noopener noreferrer">
-                            <img src="-/media/images/icons/twitterx.png" alt="X" width="20" height="20">
-                        </a>
-                    </li>
-                    <li class="social-menu-item">
-                        <a href="https://www.linkedin.com/company/the-university-of-kansas-hospital" class="social-menu-link data-gtm-footerSocial"
-                           aria-label="Visit the Total Care Specialist Hospital Maternity And Laboratory on LinkedIn" target="_blank" rel="noopener noreferrer">
-                            <img src="-/media/images/icons/linkedin.png" alt="LinkedIn" width="48" height="48">
-                        </a>
-                    </li>
-                    <li class="social-menu-item">
-                        <a href="https://www.instagram.com/kuhospital/" class="social-menu-link data-gtm-footerSocial"
-                           aria-label="Visit the Total Care Specialist Hospital Maternity And Laboratory on Instagram" target="_blank" rel="noopener noreferrer">
-                            <img src="-/media/images/icons/instagram.png" alt="Instagram" width="48" height="48">
-                        </a>
-                    </li>
-                    <li class="social-menu-item">
-                        <a href="https://www.youtube.com/user/KUHospital" class="social-menu-link data-gtm-footerSocial"
-                           aria-label="Visit the Total Care Specialist Hospital Maternity And Laboratory on Youtube" target="_blank" rel="noopener noreferrer">
-                            <img src="-/media/images/icons/youtube.png" alt="YouTube" width="48" height="48">
-                        </a>
-                    </li>
+                  <p>Locate Us at No 13. Onyeagoro Street, Akwakuma, Orlu Road, Imo State.</p>
+                                 
             </ul>
         </div>
         <div>
@@ -414,17 +730,18 @@ Contact Us                </a>
 
                                 <li style="grid-column: 1; grid-row: 1;"><a href="about-us.html">About Us</a></li>
                                 <li style="grid-column: 3; grid-row: 1;"><a href="contact-us.html">Contact Us</a></li>
-                                <li style="grid-column: 2; grid-row: 1;"><a href="contact-us.html">Our Services</a></li>
+                                <li style="grid-column: 2; grid-row: 1;"><a href="care.html">Our Services</a></li>
                </ul>
             </nav>
         </div>
     </div>
-    <div class="lower-footer">
+     <div class="lower-footer" style="text-align: center; margin-left: 40px;">
                 
             <span>&#169; <script>document.write(new Date().getFullYear())</script> Total Care Specialist Hospital Maternity And Laboratory</span>
        
     </div>
 </footer>
+
 
 
 
